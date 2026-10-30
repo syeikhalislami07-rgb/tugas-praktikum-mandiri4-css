@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perkutut Jawa - Suara Emas Penghibur Hati</title>
+  <style>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f6f5d9;
+      color: #29251e;
+      line-height: 1.55;
+    }
+    .topbar {
+      background: #dfbd8b;
+      text-align: center;
+      padding: 17px 12px 13px;
+      border-bottom: 4px solid #c99e60;
+    }
+    .topbar h1 {
+      margin: 0 0 8px;
+      color: #38227c;
+      font-size: clamp(19px, 3vw, 27px);
+    }
+    .tagline {
+      display: block;
+      max-width: 1000px;
+      margin: auto;
+      padding: 5px 10px;
+      background: #f7d52d;
+      color: #4a3a12;
+      font-size: 12px;
+      font-weight: bold;
+    }
+    nav {
+      text-align: center;
+      padding: 12px;
+      background: #f0edcf;
+      font-size: 13px;
+    }
+    nav a {
+      color: #34227d;
+      font-weight: bold;
+      margin: 0 9px;
+      text-decoration: underline;
+    }
+    .container {
+      width: min(100% - 30px, 1050px);
+      margin: 22px auto 45px;
+    }
+    .hero {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin: 15px auto 22px;
+    }
+    .hero img {
+      width: min(42%, 260px);
+      height: 190px;
+      object-fit: cover;
+      border: 3px solid white;
+      box-shadow: 0 2px 7px #0002;
+    }
+    h2.section-title {
+      font-size: 19px;
+      color: #45317e;
+      margin: 22px 0 8px;
+    }
+    p { text-align: justify; font-size: 14px; }
+    .profile-list {
+      padding-left: 22px;
+      font-size: 14px;
+    }
+    .care-list { padding-left: 22px; }
+    .care-list li {
+      margin-bottom: 13px;
+      font-size: 14px;
+      text-align: justify;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin: 25px 0 28px;
+    }
+    .gallery img {
+      width: 100%;
+      height: 190px;
+      object-fit: cover;
+      border: 4px solid white;
+      border-radius: 5px;
+      box-shadow: 0 2px 7px #0002;
+      transition: transform .2s;
+    }
+    .gallery img:hover { transform: scale(1.03); }
+    .offer {
+      text-align: center;
+      padding: 8px 10px 25px;
+    }
+    .offer h2 {
+      font-size: 21px;
+      margin: 8px 0;
+      color: #27221c;
+    }
+    .offer p {
+      text-align: center;
+      margin: 5px 0;
+      font-size: 14px;
+    }
+    .price { color: #c62828; font-weight: bold; }
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 9px;
+      flex-wrap: wrap;
+      margin-top: 15px;
+    }
+    .buttons a {
+      display: inline-block;
+      padding: 9px 15px;
+      background: #292929;
+      color: white;
+      border-radius: 7px;
+      text-decoration: none;
+      font-size: 12px;
+    }
+    .buttons a:hover { background: #51428a; }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #e7dfb9;
+      color: #665b42;
+      font-size: 12px;
+    }
+    @media (max-width: 650px) {
+      .container { width: min(100% - 22px, 520px); }
+      .hero img { height: 135px; }
+      .gallery { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+      .gallery img { height: 155px; }
+      p, .profile-list, .care-list li { font-size: 13px; }
+      nav a { margin: 0 5px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="topbar">
+    <h1>Perkutut Jawa Suara Emas Penghibur Hati</h1>
+    <span class="tagline">
+      Melestarikan dan mengenal burung Perkutut Jawa sebagai salah satu kekayaan alam Indonesia.
+    </span>
+  </header>
+
+  <nav>
+    <a href="#profil">Profil</a>
+    <a href="#perawatan">Budidaya</a>
+    <a href="#galeri">Galeri</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+
+  <main class="container">
+    <section class="hero">
+      <img src="burung1.png" alt="Burung perkutut Jawa 1">
+      <img src="burung2.png" alt="Burung perkutut Jawa 2">
+    </section>
+
+    <section id="profil">
+      <h2 class="section-title">Profil Burung Perkutut Jawa</h2>
+      <p>
+        Burung Perkutut Jawa dengan nama latin <i>Geopelia striata</i> adalah burung
+        berukuran kecil yang banyak dikenal karena suara kicaunya yang merdu.
+        Burung ini memiliki tubuh ramping, warna bulu cokelat keabu-abuan, serta
+        corak garis-garis hitam dan putih pada bagian leher dan dadanya.
+      </p>
+      <p>
+        Perkutut Jawa hidup di berbagai lingkungan, seperti daerah terbuka,
+        perkebunan, dan sekitar permukiman. Burung ini sering dipelihara karena
+        suaranya yang khas dan penampilannya yang menarik.
+      </p>
+
+      <h3>Profil Perkutut Jawa</h3>
+      <ul class="profile-list">
+        <li>Nama ilmiah: <i>Geopelia striata</i>.</li>
+        <li>Ukuran tubuh: sekitar 20–23 cm.</li>
+        <li>Warna bulu: cokelat keabu-abuan dengan corak garis hitam putih.</li>
+        <li>Makanan: biji-bijian seperti millet dan gabah.</li>
+        <li>Habitat: area terbuka, kebun, persawahan, dan lingkungan permukiman.</li>
+      </ul>
+    </section>
+
+    <section id="perawatan">
+      <h2 class="section-title">Cara Beternak Perkutut Jawa</h2>
+      <ol class="care-list">
+        <li>
+          <b>Pemilihan Bibit</b><br>
+          Pilih indukan yang sehat, aktif, memiliki bulu rapi, dan tidak menunjukkan
+          tanda-tanda sakit. Pastikan burung memiliki kondisi tubuh yang baik.
+        </li>
+        <li>
+          <b>Persiapan Kandang Budidaya</b><br>
+          Siapkan kandang yang bersih, aman, memiliki sirkulasi udara yang baik,
+          serta cukup ruang agar burung dapat bergerak dengan nyaman.
+        </li>
+        <li>
+          <b>Proses Penjodohan</b><br>
+          Kenalkan burung jantan dan betina secara bertahap. Amati perilakunya
+          dan pastikan keduanya dapat beradaptasi sebelum ditempatkan bersama.
+        </li>
+        <li>
+          <b>Tahap Pemeliharaan Anakan</b><br>
+          Jaga kebersihan kandang, sediakan pakan dan air minum setiap hari,
+          serta pantau kondisi induk dan anakan secara rutin.
+        </li>
+      </ol>
+    </section>
+
+    <section id="galeri">
+      <h2 class="section-title">Galeri Perkutut Jawa</h2>
+      <div class="gallery">
+        <img src="burung3.png" alt="Perkutut Jawa di dahan pohon">
+        <img src="burung4.png" alt="Perkutut Jawa tampak dekat">
+        <img src="burung5.jpg" alt="Perkutut Jawa di tanah">
+        <img src="burung5.png" alt="Perkutut Jawa di alam">
+      </div>
+    </section>
+
+    <section class="offer" id="kontak">
+      <h2>Tertarik untuk Budidaya / Memelihara Perkutut Jawa?</h2>
+      <h3>Penawaran Khusus Bagi Anda</h3>
+      <p>Harga 1 ekor Perkutut Jawa: <span class="price">Rp75.000</span></p>
+      <p>Harga dapat berubah sesuai jenis dan kondisi burung.</p>
+      <p>Berminat atau ingin bertanya? Hubungi kami melalui WhatsApp.</p>
+      <div class="buttons">
+        <a href="https://wa.me/6281234567890" target="_blank">WhatsApp</a>
+        <a href="#profil">Baca Profil</a>
+        <a href="#galeri">Lihat Galeri</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Website Perkutut Jawa | Tugas UI/UX Design
+  </footer>
+
+</body>
+</html>
